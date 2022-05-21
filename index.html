@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earth</title>
+  <script src="three.js"></script>
+  <script src="https://unpkg.com/three@0.137.4/examples/js/controls/OrbitControls.js"></script>
+  <script src="app.js"></script>
+  <style>
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-color: black;
+      color: white;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    canvas{
+      border: 1px solid white;
+    }
+    a:visited{
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h1>The Earth made by Three.js</h1>
+  <canvas id="canvas"></canvas>
+  <small>
+    texture: <a href="http://planetpixelemporium.com/earth.html">PLANET TEXTURE MAPS</a>
+  </small>
+</body>
+</html>
